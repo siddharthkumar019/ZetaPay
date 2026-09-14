@@ -50,7 +50,7 @@ jobs:
       - uses: ./.github/actions/setup-rust
 
       - name: Install cargo-audit
-        uses: taiki-e/install-action@07b4745e0c39a41822af610387492e3e53aa222b
+        uses: taiki-e/install-action@d438492cf8a250514fa2d34b30bc3c0dc37c65ff
         with:
           tool: cargo-audit
 
